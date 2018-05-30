@@ -1,0 +1,78 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This R notebook is based on this [dplyr tutorial](http://genomicsclass.github.io/book/pages/dplyr_tutorial.html) with minor modification. In this example, we will use the mammals sleep data set with 83 rows and 11 columns. 
+
+Load library _dplyr_
+```{r}
+library(dplyr)
+
+my_url <- "https://raw.githubusercontent.com/genomicsclass/dagdata/master/inst/extdata/msleep_ggplot2.csv"
+df <- read.csv(url(my_url))
+df <- as_tibble(df)
+df
+```
+
+
+### Select columns
+```{r}
+select(df, name, sleep_total)
+```
+
+### Select rows
+
+Select row with 1 condition:
+```{r}
+filter(df, sleep_total >= 16)
+```
+
+Select row with multiple conditions:
+```{r}
+filter(df, sleep_total >= 3, bodywt > 1 | brainwt > 0.005)
+```
+
+### Reorder rows, using a pipe
+```{r}
+df %>% arrange(order)
+```
+
+Modify an existing column
+```{r}
+df %>%
+  mutate(sleep_total = sleep_total / 24)
+```
+
+
+Create a new column
+```{r}
+df %>%
+  mutate(rem_proportion = sleep_rem / sleep_total) %>%
+  head
+```
+
+
+### Summarise data (within groups)
+```{r}
+df %>%
+  group_by(order) %>%
+  summarise(avg_sleep = mean(sleep_total),
+            min_sleep = min(sleep_total),
+            max_sleep = max(sleep_total),
+            total = n())
+```
+```{r}
+library(tidyr)
+
+# Gather (Alteryx's transpose) ======
+df1 <- read.csv("supplies.csv")
+df1 <- as_tibble(df1)
+df2 <- df1 %>% gather(Name, Value, January:December )
+df2
+
+# Spread (Alteryx's crosstab) =======
+df2 %>% spread(key = Name, value = Value) %>% select(names(df1))
+```
+
+
