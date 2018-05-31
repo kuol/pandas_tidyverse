@@ -62,6 +62,22 @@ df %>%
             max_sleep = max(sleep_total),
             total = n())
 ```
+
+
+### Join two data.frames 
+```{r}
+band_members
+band_instruments
+
+band_members %>% inner_join(band_instruments)
+band_members %>% left_join(band_instruments)
+band_members %>% right_join(band_instruments)
+band_members %>% full_join(band_instruments)
+```
+
+
+
+### Reshape data (wide-to-long and long-to-wide)
 ```{r}
 library(tidyr)
 
@@ -75,4 +91,10 @@ df2
 df2 %>% spread(key = Name, value = Value) %>% select(names(df1))
 ```
 
+
+### Unite and separate columns
+```{r}
+df2 <- df1 %>% unite(Prod_cate, Product, Category)
+df2 %>% separate(Prod_cate, c("Product", "Category"), sep = '_')
+```
 
