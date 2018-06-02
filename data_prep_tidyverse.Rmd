@@ -1,11 +1,33 @@
 ---
-title: "R Notebook"
+title: "Common Data Preparation in R with dplyr and tidyr"
+author: Kuo Liu
+date: \`r format(Sys.time(), "%B %d, %Y")`\
 output: html_notebook
 ---
 
-This R notebook is based on this [dplyr tutorial](http://genomicsclass.github.io/book/pages/dplyr_tutorial.html) with minor modification. In this example, we will use the mammals sleep data set with 83 rows and 11 columns. 
+This R notebook serves as a companion for the Jupyter Notebook: _Common Data Preparation in Pandas_. Most examples in **Part 1** of the notebook are based on this [dplyr tutorial](http://genomicsclass.github.io/book/pages/dplyr_tutorial.html) from the Data Analysis for Genomics course by HardvardX.  
 
-Load library _dplyr_
+In **part 1** we study the 6 verbs in `dplyr`, i.e.:
+
+- `select`: Select columns from a data frame.
+- `filter`: Select rows (based on certain conditions) from a data frame.
+- `arrange`: Reorder rows of a data frame.
+- `mutate`: Modify existing columns or creat new columns in a data frame.
+- `summarise`: A vector to single number operation that is usually used together with `groupby` to summarize results in each group. 
+- `join`: Join two data frames by a key (or several keys).
+
+
+In **Part 2**, we focus on 4 functions in `tidyr`.
+
+- `gather`: Reshape a data frame from _wide to long_ and make certain column names themselves as new variables in rows. 
+- `spread`: Reshape a data frame from _long to wide_ and make certain values in rows as a new column name. The inverse of `gather`
+- `separate`: Split one column in a data frame into multiple new columns. 
+- `unite`: Concatenate multiple columns into one column in a data frame. The inverse of `separate`.
+
+We will also introduce the very convenient pipe operator `%>%`. 
+
+## Part 1: Verbs in dplyr
+Load library _dplyr_ 
 ```{r}
 library(dplyr)
 
@@ -76,18 +98,18 @@ band_members %>% full_join(band_instruments)
 ```
 
 
-
+## Part 2: 4 Verbs in tidyr
 ### Reshape data (wide-to-long and long-to-wide)
 ```{r}
 library(tidyr)
 
-# Gather (Alteryx's transpose) ======
+# Gather  ======
 df1 <- read.csv("supplies.csv")
 df1 <- as_tibble(df1)
 df2 <- df1 %>% gather(Name, Value, January:December )
 df2
 
-# Spread (Alteryx's crosstab) =======
+# Spread  =======
 df2 %>% spread(key = Name, value = Value) %>% select(names(df1))
 ```
 
