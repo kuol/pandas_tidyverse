@@ -1,0 +1,1252 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2018.1">
+  <Nodes>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="552" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Alteryx's Equivalent for dplyr</Text>
+          <Font name="Corbel" size="20.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="80" g="174" b="231" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="906" y="54" width="384" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Alteryx's Equivalent for tidyr</Text>
+          <Font name="Corbel" size="20.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="80" g="174" b="231" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="906" y="126" width="338" height="284" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx equivalent for tidyr</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="931" y="206" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="10" />
+              <Fields>
+                <Field name="Product" />
+                <Field name="Category" />
+                <Field name="Suggested Age Range" />
+                <Field name="Average Monthly Sales" />
+                <Field name="January" />
+                <Field name="February" />
+                <Field name="March" />
+                <Field name="April" />
+                <Field name="May" />
+                <Field name="June" />
+                <Field name="July" />
+                <Field name="August" />
+                <Field name="September" />
+                <Field name="October" />
+                <Field name="November" />
+                <Field name="December" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Graphing Calculators</c>
+                  <c>General</c>
+                  <c>13+</c>
+                  <c>84020.17</c>
+                  <c>191817</c>
+                  <c>434</c>
+                  <c>70654</c>
+                  <c>166571</c>
+                  <c>99066</c>
+                  <c>64423</c>
+                  <c>72846</c>
+                  <c>52744</c>
+                  <c>16150</c>
+                  <c>98130</c>
+                  <c>42312</c>
+                  <c>133095</c>
+                </r>
+                <r>
+                  <c>Office Supplies</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>83319.17</c>
+                  <c>156628</c>
+                  <c>82183</c>
+                  <c>125043</c>
+                  <c>11205</c>
+                  <c>130896</c>
+                  <c>31214</c>
+                  <c>199932</c>
+                  <c>121453</c>
+                  <c>61049</c>
+                  <c>16068</c>
+                  <c>18098</c>
+                  <c>46061</c>
+                </r>
+                <r>
+                  <c>Encyclopedias</c>
+                  <c>Educational</c>
+                  <c>All ages</c>
+                  <c>79280.75</c>
+                  <c>6299</c>
+                  <c>119153</c>
+                  <c>161717</c>
+                  <c>145195</c>
+                  <c>22305</c>
+                  <c>38385</c>
+                  <c>9183</c>
+                  <c>157398</c>
+                  <c>169316</c>
+                  <c>30902</c>
+                  <c>74336</c>
+                  <c>17180</c>
+                </r>
+                <r>
+                  <c>Building Blocks</c>
+                  <c>Fun and Games</c>
+                  <c>3-6</c>
+                  <c>97381.33</c>
+                  <c>8313</c>
+                  <c>184270</c>
+                  <c>186021</c>
+                  <c>190255</c>
+                  <c>8211</c>
+                  <c>134736</c>
+                  <c>154287</c>
+                  <c>4735</c>
+                  <c>71620</c>
+                  <c>113519</c>
+                  <c>20765</c>
+                  <c>91844</c>
+                </r>
+                <r>
+                  <c>Books about Dinosaurs</c>
+                  <c>Fun and Games</c>
+                  <c>All ages</c>
+                  <c>106175.58</c>
+                  <c>193667</c>
+                  <c>76441</c>
+                  <c>163244</c>
+                  <c>116158</c>
+                  <c>42346</c>
+                  <c>166919</c>
+                  <c>153584</c>
+                  <c>72374</c>
+                  <c>155810</c>
+                  <c>44161</c>
+                  <c>55709</c>
+                  <c>33694</c>
+                </r>
+                <r>
+                  <c>Viggo Mortenson DVDs</c>
+                  <c>Fun and Games</c>
+                  <c>13+</c>
+                  <c>117805.5</c>
+                  <c>181291</c>
+                  <c>178860</c>
+                  <c>144830</c>
+                  <c>35341</c>
+                  <c>136331</c>
+                  <c>199431</c>
+                  <c>42309</c>
+                  <c>42458</c>
+                  <c>184727</c>
+                  <c>80648</c>
+                  <c>54734</c>
+                  <c>132706</c>
+                </r>
+                <r>
+                  <c>Clothing</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>121212.5</c>
+                  <c>6988</c>
+                  <c>71830</c>
+                  <c>69881</c>
+                  <c>137635</c>
+                  <c>168495</c>
+                  <c>118806</c>
+                  <c>199716</c>
+                  <c>153901</c>
+                  <c>145946</c>
+                  <c>20584</c>
+                  <c>190893</c>
+                  <c>169875</c>
+                </r>
+                <r>
+                  <c>Frisbee and Frisbee Accessories</c>
+                  <c>Fun and Games</c>
+                  <c>7+</c>
+                  <c>92629.92</c>
+                  <c>4940</c>
+                  <c>105607</c>
+                  <c>53949</c>
+                  <c>72655</c>
+                  <c>140850</c>
+                  <c>68332</c>
+                  <c>154956</c>
+                  <c>158538</c>
+                  <c>116732</c>
+                  <c>153754</c>
+                  <c>46668</c>
+                  <c>34578</c>
+                </r>
+                <r>
+                  <c>Legumes</c>
+                  <c>General</c>
+                  <c>All ages</c>
+                  <c>116122.75</c>
+                  <c>73467</c>
+                  <c>154459</c>
+                  <c>92995</c>
+                  <c>68466</c>
+                  <c>159429</c>
+                  <c>130945</c>
+                  <c>32288</c>
+                  <c>140673</c>
+                  <c>153088</c>
+                  <c>73637</c>
+                  <c>176343</c>
+                  <c>137683</c>
+                </r>
+                <r>
+                  <c>Microscopes</c>
+                  <c>Educational</c>
+                  <c>7+</c>
+                  <c>602.83</c>
+                  <c>206</c>
+                  <c>324</c>
+                  <c>925</c>
+                  <c>633</c>
+                  <c>487</c>
+                  <c>168</c>
+                  <c>235</c>
+                  <c>154</c>
+                  <c>1432</c>
+                  <c>861</c>
+                  <c>530</c>
+                  <c>1279</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="1039" y="206" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Ignore</ErrorWarn>
+              <KeyFields>
+                <Field field="Product" />
+                <Field field="Category" />
+                <Field field="Suggested Age Range" />
+                <Field field="Average Monthly Sales" />
+              </KeyFields>
+              <DataFields>
+                <Field field="Product" selected="False" />
+                <Field field="Category" selected="False" />
+                <Field field="Suggested Age Range" selected="False" />
+                <Field field="Average Monthly Sales" selected="False" />
+                <Field field="January" selected="True" />
+                <Field field="February" selected="True" />
+                <Field field="March" selected="True" />
+                <Field field="April" selected="True" />
+                <Field field="May" selected="True" />
+                <Field field="June" selected="True" />
+                <Field field="July" selected="True" />
+                <Field field="August" selected="True" />
+                <Field field="September" selected="True" />
+                <Field field="October" selected="True" />
+                <Field field="November" selected="True" />
+                <Field field="December" selected="True" />
+                <Field field="*Unknown" selected="False" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="1147" y="206" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="Product" />
+                <Field field="Category" />
+                <Field field="Suggested Age Range" />
+              </GroupFields>
+              <HeaderField field="Name" />
+              <DataField field="Value" />
+              <Methods>
+                <Method method="Sum" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Product" size="31" source="CrossTab:Group:Sum:" type="V_String" />
+                <Field name="Category" size="13" source="CrossTab:Group:Sum:" type="String" />
+                <Field name="Suggested Age Range" size="8" source="CrossTab:Group:Sum:" type="String" />
+                <Field name="January" source="CrossTab:Header:Name:January:Sum:" type="Int64" />
+                <Field name="February" source="CrossTab:Header:Name:February:Sum:" type="Int64" />
+                <Field name="March" source="CrossTab:Header:Name:March:Sum:" type="Int64" />
+                <Field name="April" source="CrossTab:Header:Name:April:Sum:" type="Int64" />
+                <Field name="May" source="CrossTab:Header:Name:May:Sum:" type="Int64" />
+                <Field name="June" source="CrossTab:Header:Name:June:Sum:" type="Int64" />
+                <Field name="July" source="CrossTab:Header:Name:July:Sum:" type="Int64" />
+                <Field name="August" source="CrossTab:Header:Name:August:Sum:" type="Int64" />
+                <Field name="September" source="CrossTab:Header:Name:September:Sum:" type="Int64" />
+                <Field name="October" source="CrossTab:Header:Name:October:Sum:" type="Int64" />
+                <Field name="November" source="CrossTab:Header:Name:November:Sum:" type="Int64" />
+                <Field name="December" source="CrossTab:Header:Name:December:Sum:" type="Int64" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="Product" order="Asc" />
+                <Field field="Category" order="Asc" />
+                <Field field="Suggested Age Range" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1051" y="326" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[Product] + &quot;_&quot; + [Category]" field="Prod_cate" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[Prod_cate = [Product] + "_" + [Category]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1027" y="170" width="72" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Reshape: wide to long</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1147" y="170" width="72" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Reshape: long to wide</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="1159" y="326" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Prod_cate</Field>
+              <NumFields value="2" />
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>Prod_cate</RootName>
+              <Delimeters value="_" />
+              <Flags value="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1063" y="302" width="36" height="28" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Unite</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1159" y="302" width="60" height="28" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Separate</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="52.99982" y="126" width="795.0003" height="760.0001" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Alteryx's equivalent for dplyr</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="284.0001" y="198" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="name" selected="True" />
+                <SelectField field="sleep_total" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="283.0002" y="309.9998" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Field>sleep_total</Field>
+                <Operator>&gt;=</Operator>
+                <Operands>
+                  <Operand>16</Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[sleep_total] &gt;= 16</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="282" y="282" width="100" height="40" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Select rows with 1 condition</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="3" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="285.0001" y="397.9998" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[sleep_total] &gt;= 3 &amp;&amp; (([bodywt] &gt; 1) || ([brainwt] &gt; 0.005))</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[sleep_total] &gt;= 3 &amp;&amp; (([bodywt] &gt; 1) || ([brainwt] &gt; 0.005))</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="283.0002" y="369.9999" width="108" height="36" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Select rows with multiple conditions</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="3" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="270" y="186" width="100" height="20.00012" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Select columns</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+            <Position x="283.0001" y="502" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SortInfo locale="0">
+                <Field field="order" order="Ascending" />
+              </SortInfo>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>order - Ascending</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="283.0001" y="598" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[sleep_total] / 24" field="sleep_total" size="8" type="Double" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[sleep_total = [sleep_total] / 24
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="283.0001" y="486" width="82.99994" height="28" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Reorder rows</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="3" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="283.0001" y="574" width="108" height="36" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Modify an existing column</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="3" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="283.0002" y="706" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[sleep_rem] / [sleep_total]" field="rem_proportion" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[rem_proportion = [sleep_rem] / [sleep_total]
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="283" y="682" width="108" height="36" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Create a new column</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="3" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="27">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="283.0001" y="802.0001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="order" action="GroupBy" rename="order" />
+                <SummarizeField field="sleep_total" action="Avg" rename="avg_sleep" />
+                <SummarizeField field="sleep_total" action="Min" rename="min_sleep" />
+                <SummarizeField field="sleep_total" action="Max" rename="max_sleep" />
+                <SummarizeField field="sleep_total" action="Count" rename="total" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="282.9998" y="765.9999" width="108" height="36" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Summarise data (within groups)</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="3" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="499.0002" y="538" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="3" />
+              <Fields>
+                <Field name="name" />
+                <Field name="band" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>Mick</c>
+                  <c>Stones</c>
+                </r>
+                <r>
+                  <c>John</c>
+                  <c>Beatles</c>
+                </r>
+                <r>
+                  <c>Paul</c>
+                  <c>Beatles</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="499.0001" y="610" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="3" />
+              <Fields>
+                <Field name="name" />
+                <Field name="plays" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>John</c>
+                  <c>Guitar</c>
+                </r>
+                <r>
+                  <c>Paul</c>
+                  <c>Bass</c>
+                </r>
+                <r>
+                  <c>Keith</c>
+                  <c>Guitar</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="595.0002" y="586" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="name" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="name" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_name" selected="False" rename="Right_name" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="727.0001" y="502" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="727.0001" y="586" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="726" y="482" width="60" height="24" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Left join</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="3" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="727.0001" y="682" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\kliu\AppData\Local\Temp\Engine_10072_0ed86d8083e34f92ba69d54ccd7592fa_\Engine_9900_32f428e934a442f9b5f1af39589ee60a_.yxdb</TempFile>
+              <Layout>
+                <View1>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="727.0001" y="574" width="60" height="24" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Right join</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="3" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="727.0002" y="670" width="60" height="24" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Inner join</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="3" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="739.0001" y="777.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="727.0001" y="754" width="96" height="24" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Outer (Full) join</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="3" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="558" y="170" width="216" height="144" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Left join and right join in Alteryx is slightly different from what is in SQL or dplyr, pandas. 
+
+ While in the latter, left join is as shown in the Venn diagram, in Alteryx, left join and right join don't include the intersection of two data tables.</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="3" />
+              <Justification Justification="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="54">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="558" y="326" width="144" height="96" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text />
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+              <BG_Image>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</BG_Image>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="56">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="77.99981" y="473.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\kliu\Documents\201806Inspire\mammals_sleep.yxdb</File>
+              <FormatSpecificOptions />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>mammals_sleep.yxdb</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="name" size="30" source="Formula: IF [_CurrentField_] == 'NA' THEN Null() ELSE [_CurrentField_] ENDIF" type="V_String" />
+                <Field name="genus" size="13" source="Formula: IF [_CurrentField_] == 'NA' THEN Null() ELSE [_CurrentField_] ENDIF" type="V_String" />
+                <Field name="vore" size="7" source="Formula: IF [_CurrentField_] == 'NA' THEN Null() ELSE [_CurrentField_] ENDIF" type="String" />
+                <Field name="order" size="15" source="Formula: IF [_CurrentField_] == 'NA' THEN Null() ELSE [_CurrentField_] ENDIF" type="V_String" />
+                <Field name="conservation" size="12" source="Formula: IF [_CurrentField_] == 'NA' THEN Null() ELSE [_CurrentField_] ENDIF" type="V_String" />
+                <Field name="sleep_total" source="Formula: IF [_CurrentField_] == 'NA' THEN Null() ELSE [_CurrentField_] ENDIF" type="Double" />
+                <Field name="sleep_rem" source="Formula: IF [_CurrentField_] == 'NA' THEN Null() ELSE [_CurrentField_] ENDIF" type="Double" />
+                <Field name="sleep_cycle" source="Formula: IF [_CurrentField_] == 'NA' THEN Null() ELSE [_CurrentField_] ENDIF" type="Double" />
+                <Field name="awake" source="Formula: IF [_CurrentField_] == 'NA' THEN Null() ELSE [_CurrentField_] ENDIF" type="Double" />
+                <Field name="brainwt" source="Formula: IF [_CurrentField_] == 'NA' THEN Null() ELSE [_CurrentField_] ENDIF" type="Double" />
+                <Field name="bodywt" source="Formula: IF [_CurrentField_] == 'NA' THEN Null() ELSE [_CurrentField_] ENDIF" type="Double" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="31" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Right" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="31" Connection="Left" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="31" Connection="Join" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="31" Connection="Right" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="31" Connection="Join" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Join" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="31" Connection="Left" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="31" Connection="Join" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="31" Connection="Right" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="False" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>data_prep_alteryx</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
