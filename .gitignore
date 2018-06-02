@@ -1,6 +1,7 @@
 # R related
 .RData
 .Rhistory
+*.nb.html
 
 # Python related
 .ipnb_checkpoints
