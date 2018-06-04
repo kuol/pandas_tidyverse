@@ -40,20 +40,43 @@ df
 
 ### Select columns
 ```{r}
+# Approach 1: select by column name
 select(df, name, sleep_total)
+
+# Approach 2: select by column index
+select(msleep, c(1,6))
 ```
 
 ### Select rows
+There are 2 ways to select rows in `dplyr`
 
-Select row with 1 condition:
+- Select rows by index: `slice`
+- Select rows by condition: `filter`
+
+Select rows by index.
+```{r}
+slice(msleep, 6:10)
+```
+
+
+Select rows with 1 condition:
 ```{r}
 filter(df, sleep_total >= 16)
 ```
 
-Select row with multiple conditions:
+Select rows with multiple conditions:
 ```{r}
 filter(df, sleep_total >= 3, bodywt > 1 | brainwt > 0.005)
 ```
+
+As you can see from the examples above, in `dplyr`, usually the data preparation process is like this:
+
+- First, you think about what data operations you want to perform
+- Second, you find the right "verb" in `dplyr`
+- Third, you provide the minimum needed information (function parameters) to accomplish the operation.
+
+While in pandas, usually the thought process is not as consistent as in `dplyr`. Other than the operation itself, you need to think about the underline data structure a lot. 
+
 
 ### Reorder rows, using a pipe
 ```{r}
